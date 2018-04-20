@@ -32,3 +32,8 @@ sudo dpkg -i libcudnn7_7.0.2.38-1+cuda8.0_amd64.deb
 #### CUDA and cuDNN paths
 export PATH=/usr/local/cuda-8.0/bin:${PATH}  
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}
+```
+function hellow(){
+　return "hello world!";
+}
+```
