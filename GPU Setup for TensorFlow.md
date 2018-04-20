@@ -9,12 +9,13 @@
 lspci | grep -i nvidia
 
 ### CUDA
-https://developer.nvidia.com/cuda-toolkit
-http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/
+- Download the cuda-toolkit
+> https://developer.nvidia.com/cuda-toolkit
+> http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/
 
 ### cuDNN
-https://developer.nvidia.com/rdp/cudnn-download
-Create the account
+- Create the account
+> https://developer.nvidia.com/rdp/cudnn-download
 
 
 ### Path
