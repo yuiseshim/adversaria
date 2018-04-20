@@ -5,17 +5,17 @@
 1. TensorFlow-gpu
 
 
-### Check GPU
+## Check GPU
 ```
 lspci | grep -i nvidia
 ```
 
-### CUDA
+## CUDA
 Download the cuda-toolkit
 > https://developer.nvidia.com/cuda-toolkit
 > http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/
 
-### cuDNN
+## cuDNN
 Create the account
 > https://developer.nvidia.com/rdp/cudnn-download
 ```
@@ -31,12 +31,8 @@ sudo cp -a cuda/include/* /usr/local/cuda-8.0/include/
 sudo ldconfig
 ```
 
-### Path
-#### CUDA and cuDNN paths
+## CUDA and cuDNN paths
+```
 export PATH=/usr/local/cuda-8.0/bin:${PATH}  
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}
-```
-function hellow(){
-　return "hello world!";
-}
 ```
