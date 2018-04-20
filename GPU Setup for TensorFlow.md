@@ -4,6 +4,9 @@
 1. cuDNN
 1. TensorFlow-gpu
 
+```
+sudo apt-get install cuda-command-line-tools
+```
 
 ## Check GPU
 ```
@@ -37,6 +40,7 @@ sudo ldconfig
 ```bash:.bash_profile
 export PATH=/usr/local/cuda-8.0/bin:${PATH}  
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}
+#export LD_LIBRARY_PATH=${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}/usr/local/cuda/extras/CUPTI/lib64
 ```
 
 ## Using GPU
