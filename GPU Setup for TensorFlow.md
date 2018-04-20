@@ -1,8 +1,8 @@
 ## Tensorflow on GPU
 
-- CUDA
-- cuDNN
-- TensorFlow-gpu
+1. CUDA
+2. cuDNN
+3. TensorFlow-gpu
 
 
 ### Check GPU
