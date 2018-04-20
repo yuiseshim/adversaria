@@ -6,7 +6,9 @@
 
 
 ### Check GPU
+```
 lspci | grep -i nvidia
+```
 
 ### CUDA
 Download the cuda-toolkit
