@@ -1,5 +1,5 @@
 ## Tensorflow on GPU
-
+https://www.tensorflow.org/install/install_linux
 1. CUDA
 1. cuDNN
 1. TensorFlow-gpu
