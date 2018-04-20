@@ -1,8 +1,33 @@
 ## Tensorflow on GPU
 https://www.tensorflow.org/install/install_linux
+1. NVIDIA GPU driver
 1. CUDA
 1. cuDNN
 1. TensorFlow-gpu
+
+## NVIDIA GPU driver
+```
+$ add-apt-repository ppa:xorg-edgers/ppa
+$ apt-get update
+$ apt-cache search 'nvidia-[0-9]+$'
+nvidia-173 - NVIDIA legacy binary driver - version 173.14.39
+nvidia-310 - Transitional package for nvidia-310
+nvidia-319 - Transitional package for nvidia-319
+nvidia-304 - NVIDIA legacy binary driver - version 304.135
+nvidia-331 - Transitional package for nvidia-331
+nvidia-340 - NVIDIA binary driver - version 340.102
+nvidia-346 - Transitional package for nvidia-346
+nvidia-367 - Transitional package for nvidia-375
+nvidia-375 - NVIDIA binary driver - version 375.66
+nvidia-352 - Transitional package for nvidia-375
+nvidia-361 - NVIDIA binary driver - version 361.93.02
+nvidia-343 - NVIDIA binary driver - version 343.19
+```
+http://www.nvidia.co.jp/Download/index.aspx?lang=jp
+```
+$ apt-get install nvidia-375
+$ reboot
+```
 
 ```
 sudo apt-get install cuda-command-line-tools
