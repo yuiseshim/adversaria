@@ -9,6 +9,7 @@ apt-get install texlive-lang-cjk
 apt-get install xdvik-ja
 sudo apt-get install -y libhdf5-serial-dev
 sudo apt-get install -y terminator
+sudo apt-get install -y cmake
 sudo apt-get install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
 
 # Install pyenv-virtual
