@@ -1,12 +1,13 @@
 # Default install
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get emacs
+sudo apt-get install emacs
 sudo apt-get install aptitude
 apt-get install tetex-*
 apt-get install texlive
 apt-get install texlive-lang-cjk
 apt-get install xdvik-ja
+sudo apt-get install libhdf5-serial-dev
 sudo apt-get install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
 
 # Install pyenv-virtual
