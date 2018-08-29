@@ -11,6 +11,7 @@ sudo apt-get install -y libhdf5-serial-dev
 sudo apt-get install -y terminator
 sudo apt-get install -y cmake
 sudo apt-get install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
+sudo apt-get install -y libreoffice
 sudo apt-get install -y libreoffice-dev
 
 # Install pyenv-virtual
