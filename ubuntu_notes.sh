@@ -11,6 +11,7 @@ sudo apt-get install -y libhdf5-serial-dev
 sudo apt-get install -y terminator
 sudo apt-get install -y cmake
 sudo apt-get install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
+sudo apt-get install -y libreoffice-dev
 
 # Install pyenv-virtual
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
