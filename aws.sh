@@ -11,3 +11,5 @@ sudo apt-get install -y skksearch
 sudo apt-get install -y dbskkd-cdb
 
 sudo apt-get install -y make gcc libreadline-dev libsqlite3-dev build-essential libssl-dev zlib1g-dev libbz2-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
+sudo apt-get install -y nodejs-dev node-gyp libssl1.0-dev
+sudo apt-get install -y nodejs npm
